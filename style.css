@@ -1,3 +1,7 @@
-h1 {
-    color: blue;
-}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: "Poppins", sans-serif; background-color: #f0f0f0; color: #333; transition: all 0.4s ease-in; }
+
+h1 { text-align: center; margin-top: 1.25rem; }
+
+.container { display: grid; width: 100%; min-height: calc(100vh - 4.25rem); place-content: center; gap: 1rem; text-align: center; }
